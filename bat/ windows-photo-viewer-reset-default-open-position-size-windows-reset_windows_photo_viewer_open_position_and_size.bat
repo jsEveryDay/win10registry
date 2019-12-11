@@ -1,0 +1,1 @@
+@echo offReg Delete "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows Photo Viewer\Viewer" /V MainWndPos /F

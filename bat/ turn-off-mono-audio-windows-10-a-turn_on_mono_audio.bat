@@ -1,0 +1,1 @@
+@echo offpowershell -windowstyle hidden -command "Start-Process cmd -ArgumentList '/s,/c,REG ADD "HKCU\Software\Microsoft\Multimedia\Audio" /V AccessibilityMonoMixState /T REG_DWORD /D 1 /F & net stop "Audiosrv" & net start "Audiosrv"' -Verb runAs"

@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\PowerShellISEAsAdmin]
+@="Edit with PowerShell ISE as administrator"
+"Extended"=-
+"HasLUAShield"=""
+"Icon"="PowerShell_ISE.exe"
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\PowerShellISEAsAdmin\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/s,/c,start PowerShell_ISE.exe \"\"%1\"\"'  -Verb RunAs\""
+
+

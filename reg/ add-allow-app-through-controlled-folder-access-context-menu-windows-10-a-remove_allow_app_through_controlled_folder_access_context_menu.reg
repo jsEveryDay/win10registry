@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+
+[-HKEY_CLASSES_ROOT\comfile\Shell\AllowControlledFolderAccess]
+
+[-HKEY_CLASSES_ROOT\exefile\Shell\AllowControlledFolderAccess]
+
